@@ -1,25 +1,26 @@
 ## Common terms
 
--product-name = Scribe for Meetings
--product-link = <https://www.pneumasolutions.com/products/scribe-for-meetings/>
+-product-name = Remote Incident Manager
+-product-link = <https://www.pneumasolutions.com/products/rim/>
 
 ## Common fields
 
 label-senderName = Your name
 
-option-gender-male = male
-option-gender-female = female
-option-gender-other = other
+option-solution-teamviewer = TeamViewer
+option-solution-quickassist = QuickAssist
+option-solution-other = other
 
 ## Letters
 
 letter-student-disability-office =
     .name = Student to Disability Office
-    .description = When you need help getting { -product-name } in the classroom, the disability office is the place to start. Be sure to give them as much advance notice. The disability office will need ample time to notify your instructor and get financial approval well before your classes begin.
+    .description = When you need help getting { -product-name } in your university, the disability office is the place to start. If you are facing accessibility issues with the current remote support solution that your university's IT department utilizes, be sure to give the disability office as much information about these accessibility issues as you can gather.
 
     .label-disabilityCoordinatorName = Disability office coordinator's name
+    .label-solution = Existing software used
 
-    .subject-1 = New accessibility accommodation request: Zoom screen shares now accessible
+    .subject-1 = New accessibility accommodation request: accessible remote desktop support
     .subject-2 = Can I get this accessibility accommodation?
     .subject-3 = Can you help me with this accessibility accommodation?
 
@@ -28,270 +29,38 @@ letter-student-disability-office =
 
         My name is { $senderName }. I am a blind student enrolled on campus.
 
-        Since the COVID pandemic, many classes are now being held online through platforms like Zoom. But there has been one problem for students using a screen reader. The instructor's slide shows are completely inaccessible when screen shared in Zoom.
+        I recently received assistance with a computer problem. While the IT department was very helpful when it came to resolving my incident, I encountered some issues with the remote support program being utilized. I use a screen reader to navigate the computer, and the current program is completely unusable with a screen reader. The screen reader was unable to read the ID and password needed by the IT support representative to connect to my computer.
 
-        But, I've located a solution. An accessibility product which displays shared slide shows in WCAG2.1 compliant HTML. The product is called, { -product-name }.
+        The good news is that I have found a program that will fully resolve that issue. The product is called, { -product-name }.
 
-        ## For me as a student, { -product-name } will allow me to:
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications.
 
-        - Access content real-time within a shared slide show using my screen reader.
-        - Convert class materials to a number of accessible formats including braille and large print.
-        - Independently review content at the same time as my classmates.
-        - Absorb material according to my learning style needs.
-        - Feel I'm included as an equal member of the class.
-        - View the presentation material in sync with the rest of the class.
-        - Not be limited to only what I hear spoken in the session.
-        - Make it easier to maintain, or improve, my grade point average.
+        ## { -product-name } will allow me to:
 
-        ## For the instructor { -product-name } will:
+        - Connect to a support representative easily and efficiently through use of a simple keyword
+        - Talk to the person on the other end of the connection without having to use another VOIP system
 
-        - Be a simple 5-minute upload.
-        - Remove one more barrier to making content accessible.
-        - Make the presentation available by pasting one link in chat.
-        - Prevent them from having to read material out loud for me.
-        - Allows a smoother accessible flow of the class.
+        ## For the team leader and the rest of the team, Remote incident Manager will:
+
+        - Provide an identical feature set to your existing solution
+        - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
+        - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
+        - Provide an extremely simple interface to streamline the onboarding process
+        - Allow a smoother accessible flow of support sessions.
+        - Remove one more barrier to making the university accessible.
+        - Allow visually impaired aspiring technicians to work as IT help desk staff in order to gain valuable experience
 
         You can find more information about { -product-name } at { -product-link }
 
-        After you've had a chance to look at { -product-name }, I would like to schedule a time to discuss this in more detail with you. I think { -product-name } is a reasonable accessibility accommodation for a problem with no solution until now.
+        After you've had a chance to look at { -product-name }, I would like to schedule a time to discuss this in more detail with you. I believe { -product-name } is a simple and reasonable accessibility accommodation for a problem with no solution until now. Moreover, it is a solution that works as well as any other for all employees.
 
-        Respectfully,  
-        { $senderName }
+        Respectfully,
 
-letter-parent-teacher =
-    .name = Parent or Guardian to Teacher
-    .description = This letter will help you advocate on behalf of your child directly to his or her teacher. A written request is helpful even if you have a close parent-teacher relationship as they may need to pass it on to guidance counselors, school board members, or allies they have in the school system.
-
-    .label-teacherName = Teacher's name
-    .label-childName = Child's name
-    .label-gender = Child's gender
-
-    .subject-1 = Reasonable accessibility accommodation request for { $childName }
-    .subject-2 = Accessibility request for { $childName }
-    .subject-3 = Approval needed for { $childName }'s accessibility accommodation
-    .subject-4 = Parent-teacher item: Accessibility request for { $childName }
-    .subject-5 = Important: Accessibility request for { $childName } enclosed
-
-    .body =
-        Hello { $teacherName },
-
-        Since classes have moved online, I know there have been some challenges. But thank you so much for meeting them and making the education for our children the best it can be, under the conditions. To that end, last time we talked about { $childName }'s progress in class, I wasn't aware of the below accessibility tool.
-
-        As you're likely aware by now, any slide presentation you share using Zoom's screen share option has been inaccessible to { $childName }'s screen reader or magnifier. I've researched it on my own and found a solution: an accessibility product which will automatically display your shared slide shows in accessible HTML.
-
-        The product is called, { -product-name }.
-
-        ## { -product-name } will allow { $childName } to:
-
-        - Access content real-time within a shared slide show using { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } screen reader or magnifier.
-        - Convert class materials to a number of accessible formats including braille and large print.
-        - Independently review content at the same time as { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } classmates.
-        - Absorb material according to { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } learning style needs.
-        - Feel fully included in class again.
-        - Participate equally with { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } peers.
-        - View the presentation material in sync with { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } peers.
-        - Not be limited to only material covered audibly in class.
-        - Improve { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } quality of online education.
-
-        ## For you, { -product-name } will:
-
-        - Be a simple 5-minute upload.
-        - Remove one more barrier to making content accessible.
-        - Make the presentation available by pasting one link in chat.
-        - Prevent you from having to redundantly read material out loud.
-        - Allow a smoother accessible flow of the class for everyone.
-
-        You can find more information about { -product-name } at { -product-link}
-
-        After you've had a chance to look at { -product-name }, I'd like to schedule a time we could discuss how the school can obtain a license for it.
-
-        I believe { -product-name } qualifies as a reasonable accessibility accommodation. It's also not cost prohibitive.
-
-        Thank you, and I look forward to talking to you.
-
-        Sincerely,  
-        { $senderName }
-
-letter-parent-school-board =
-    .name = Parent or Guardian to School Board
-    .description = Sometimes it is necessary to approach the school board directly with an accessibility request on  behalf of your child.
-
-    .label-schoolBoardChairName = School board chair's name
-    .label-childName = Child's name
-    .label-schoolName = School name
-    .label-gender = Child's gender
-
-    .subject-1 = Reasonable accessibility accommodation request for my child
-    .subject-2 = Accessibility request for my visually impaired child
-    .subject-3 = Approval needed for my child's accessibility accommodation
-    .subject-4 = School board agenda item: Accessibility request for my child
-    .subject-5 = Important: Accessibility request for next board meeting
-
-    .body =
-        Hello { $schoolBoardChairName },
-
-        My name is { $senderName }. My child, { $childName }, is enrolled in { $schoolName }. { $gender ->
-            [male] He is
-            [female] She is
-           *[other] They are
-        } a blind student. We are requesting a reasonable accommodation for an accessibility need for { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } education.
-
-        While it is important to continue students' education through online platforms like Zoom, it has exposed a problem for my blind child during class.
-
-        Any slide presentation using Zoom's screen share option has been inaccessible to my child's adaptive software, such as screen readers and magnifiers.
-
-        I've researched it on my own and found a solution. An accessibility product which will display shared slide shows in WCAG2.1 compliant HTML.
-
-        The product is called, { -product-name }.
-
-        ## { -product-name } will allow my child to:
-
-        - Access content real-time within a shared slide show using a screen reader and magnifier.
-        - Convert class materials to a number of accessible formats including braille and large print.
-        - Independently review content at the same time as { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } classmates.
-        - Absorb material according to { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } learning style needs.
-        - Feel fully included in class.
-        - Participate equally with { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } peers.
-        - View the presentation material in sync with the rest of the class.
-        - Not be limited to only material covered audibly in class.
-        - Improve { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } quality of education.
-
-        ## For the teacher, { -product-name } will:
-
-        - Be a simple 5-minute upload.
-        - Remove one more barrier to making content accessible.
-        - Make the presentation available by pasting one link in chat.
-        - Prevent them from having to read material out loud.
-        - Allow a smoother accessible flow of the class for everyone.
-
-        You can find more information about { -product-name } at { -product-link }
-
-        After you've had a chance to look at { -product-name }, I would like to ask for agenda time to discuss this in more detail with the school board. { -product-name } qualifies as a reasonable accessibility accommodation. It's also not cost prohibitive.
-
-        Thank you in advance for your consideration.
-
-        Respectfully,  
-        { $senderName }
-
-letter-teacher-school-board =
-    .name = Teacher to School Board
-    .description = This will help you with the information a school board will need to consider your request on behalf of your print disabled student.
-
-    .label-schoolBoardChairName = School board chair's name
-    .label-schoolName = School name
-    .label-gender = Student's gender
-
-    .subject-1 = Reasonable accessibility accommodation request for student
-    .subject-2 = Accessibility request for my visually impaired student
-    .subject-3 = Approval needed for student's accessibility accommodation
-    .subject-4 = School board agenda item: Accessibility request for student
-    .subject-5 = Important: Accessibility request for next school board meeting
-
-    .body =
-        Hello { $schoolBoardChairName },
-
-        My name is { $senderName }. I teach at { $schoolName }. I have a blind student which is in need of a reasonable accessibility accommodation. The online class sessions through Zoom has exposed a problem for my blind student. Any slide presentation I share using Zoom's screen share option has been inaccessible to { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } adaptive software, such as a screen reader or magnifier.
-
-        I've found a solution: an accessibility product which will display shared slide shows in WCAG2.1 compliant HTML.
-
-        The product is called, { -product-name }.
-
-        ## { -product-name } will allow my student to:
-
-        - Access content real-time within a shared slide show using a screen reader and magnifier.
-        - Convert class materials to a number of accessible formats including braille and large print.
-        - Independently review content at the same time as { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } classmates.
-        - Absorb material according to { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } learning style needs.
-        - Feel fully included in class.
-        - Participate equally with { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } peers.
-        - View the presentation material in sync with the rest of the class.
-        - Not be limited to only material covered audibly in class.
-        - Improve { $gender ->
-            [male] his
-            [female] her
-           *[other] their
-        } quality of education.
-
-        ## For me, { -product-name } will:
-
-        - Be a simple 5-minute upload.
-        - Remove one more barrier to making content accessible.
-        - Make the presentation available by pasting one link in chat.
-        - Prevent me from having to read redundant material out loud.
-        - Allow a smoother accessible flow of the class for all my students.
-
-        You can find more information about { -product-name } at { -product-link }
-
-        After you've had a chance to look at { -product-name }, I would like to ask for agenda time to discuss this in more detail with the school board. { -product-name } qualifies as a reasonable accessibility accommodation. It's also not cost prohibitive.
-
-        Thank you in advance for your consideration.
-
-        Respectfully,  
         { $senderName }
 
 letter-employee-supervisor =
     .name = Employee to Supervisor
-    .description = This letter is useful when you want to approach your supervisor with the need to access team meetings or to improve productivity. Be sure to customize the intro according to the level of relationship you have with your boss or supervisor.
+    .description = This letter is useful when you want to approach your supervisor concerning the need for improved remote access. Be sure to customize the intro according to the level of relationship you have with your boss or supervisor.
 
     .label-supervisorName = Supervisor's name
 
@@ -304,35 +73,35 @@ letter-employee-supervisor =
     .body =
         Hello { $supervisorName },
 
-        Adopting Zoom in our workflow has led to several productivity benefits. It's been great for our team meetings, snapshot updates, and project collaboration sessions.
+        I would like to clear up some concerns regarding my upcoming use of remote support solutions.
 
-        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had within Zoom's screen share feature.
+        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of $current-remote-access-software.
 
-        When presenters share slide content at our meetings within Zoom, it hasn't been accessible to my screen reader or magnification software. The great news is I've found a product which now makes screen shared slide decks completely accessible with WCAG2.1 compliant HTML. Basically, my screen reader will be able to let me read shared slide content.
+        Providing remote support to our employees with $current-remote-access-software introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
 
         The product is called, { -product-name }.
 
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications.
+
         ## { -product-name } will allow me to:
 
-        - Access project content in real-time within a shared slide show using my screen reader or screen magnification.
-        - Convert project materials to several accessible formats, including braille and large print.
-        - Independently review shared material in synch with my team.
-        - Process and problem solve according to my optimum method of information input.
-        - Engage more proactively real-time with my team.
-        - Review material as needed, not relying solely on what is spoken in the meetings.
-        - Improve productivity.
+        - Provide remote support easily and efficiently
+        - Hear the remote computer's audio reliably and with minimal latency
+        - Talk to the person on the other end of the connection without having to use another VOIP system
+        - Get full speech access to remote computers that do not have a screen reader installed
 
-        ## For the team leader or presenter { -product-name } will:
+        ## For the team leader and the rest of the team, Remote incident Manager will:
 
-        - Be a simple 5-minute upload.
-        - Make the presentation available to me by pasting one link in chat.
-        - Prevent the presenter from repeating material out loud.
-        - Allow a smoother accessible flow of the meeting.
-        - Remove one more barrier to making content accessible.
+        - Provide an identical feature set to our existing solution
+        - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
+        - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
+        - Provide an extremely simple interface to streamline the onboarding process
+        - Allow a smoother accessible flow of support sessions.
+        - Remove one more barrier to making the workplace accessible.
 
         There is more information about { -product-name } at { -product-link }
 
-        { -product-name } is a simple and reasonable accessibility accommodation which is not cost prohibitive. Can you scan and review the information about { -product-name } as soon as convenient? I'd like to schedule a time with you to discuss this in more detail.
+        { -product-name } is a simple and reasonable accessibility accommodation which is not cost prohibitive. Moreover, it is a solution that works as well as any other for all employees. Can you scan and review the information about { -product-name } as soon as convenient? I'd like to schedule a time with you to discuss this in more detail, and would be willing to provide a demonstration of its use.
 
         Respectfully,  
         { $senderName }
@@ -356,29 +125,29 @@ letter-employee-hr =
 
         My name is { $senderName }. I'm a { $companyName } employee in { $departmentName }.
 
-        I'm writing concerning an accessibility at work request. There have been many reasonable accommodations made for various disabilities in the workplace. However, until now, there's not been an accessibility answer to make slide content, presented through Zoom's screen share, accessible to screen readers and magnifiers.
+        I'm writing concerning an accessibility at work request. There have been many reasonable accommodations made for various disabilities in the workplace.
+
+        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
 
         The product I'm requesting, which solves this problem, is called { -product-name }.
 
-        { -product-name } enables shared slide decks to be completely accessible to a screen reader or magnifier by converting content to WCAG2.1 compliant HTML.
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications.
 
         ## { -product-name } will allow me to:
 
-        - Access project content real-time within a shared slide show using my screen reader or screen magnification.
-        - Convert project materials to a number of accessible formats including braille and large print.
-        - Independently review shared material in synch with my team.
-        - Process and problem solve according to my optimum method of information input.
-        - Engage more proactively, in real-time, with my team.
-        - Review material as needed, not relying solely on what is spoken in the meetings.
-        - Improve productivity.
+        - Provide remote support easily and efficiently
+        - Hear the remote computer's audio reliably and with minimal latency
+        - Talk to the person on the other end of the connection without having to use another VOIP system
+        - Get full speech access to remote computers that do not have a screen reader installed
 
-        ## For the team leader or presenter { -product-name } will:
+        ## For the team leader and the rest of the team, Remote incident Manager will:
 
-        - Be a simple 5-minute upload.
-        - Make the presentation available to me by pasting one link in chat.
-        - Prevent the presenter from repeating material out loud.
-        - Allow a smoother accessible flow of the meeting.
-        - Remove one more barrier to making content accessible.
+        - Provide an identical feature set to our existing solution
+        - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
+        - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
+        - Provide an extremely simple interface to streamline the onboarding process
+        - Allow a smoother accessible flow of support sessions.
+        - Remove one more barrier to making the workplace accessible.
 
         There is more information about { -product-name } at { -product-link }
 
@@ -397,8 +166,8 @@ letter-supervisor-hr =
     .subject-1 = Employee accessibility at work request
     .subject-2 = Reasonable accessibility accommodation for employee enclosed
     .subject-3 = Attn. HR Compliance: Employee accessibility need inside
-    .subject-4 = WCAG2.1 compliant HTML Accessibility request for employee
-    .subject-5 = Request for accessibility at work: Screen share content
+    .subject-4 = Remote support Accessibility request for employee
+    .subject-5 = Request for accessibility at work: remote technical support
 
     .body =
         Hello { $hrCompliancePersonName },
@@ -407,174 +176,33 @@ letter-supervisor-hr =
 
         I'm writing concerning an accessibility at work request on behalf of a visually impaired team member.
 
-        Until now, slide content presented through Zoom's screen share has been inaccessible to screen readers and magnifiers. The product solving this issue is called, { -product-name }.
+        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
 
-        { -product-name } enables shared slide decks to be completely accessible to a screen reader or magnifier by converting content to WCAG2.1 compliant HTML.
+        The product I'm requesting, which solves this problem, is called { -product-name }.
+
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications.
 
         ## { -product-name } will allow my team member to:
 
-        - Access project content real-time within a shared slide show using a screen reader or screen magnification.
-        - Convert project materials to a number of accessible formats including braille and large print.
-        - Independently review shared material in synch with their team.
-        - Process and problem solve according to their optimum method of information input.
-        - Engage more proactively, in real-time, with the team.
-        - Review material as needed, not relying solely on what is spoken in the meetings.
-        - Improve their productivity.
+        - Provide remote support easily and efficiently
+        - Hear the remote computer's audio reliably and with minimal latency
+        - Talk to the person on the other end of the connection without having to use another VOIP system
+        - Get full speech access to remote computers that do not have a screen reader installed
 
-        ## For the team leader or presenter { -product-name } will:
+        ## For the team leader and the rest of the team, Remote incident Manager will:
 
-        - Be a simple 5-minute upload.
-        - Make the presentation available to them by pasting one link in chat.
-        - Prevent the presenter from repeating material out loud.
-        - Allow a smoother accessible flow of the meeting.
-        - Remove one more barrier to making content accessible.
+        - Provide an identical feature set to our existing solution
+        - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
+        - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
+        - Provide an extremely simple interface to streamline the onboarding process
+        - Allow a smoother accessible flow of support sessions.
+        - Remove one more barrier to making the workplace accessible.
 
         There is more information about { -product-name } at { -product-link }
 
         The employee who requested the accommodation is a valued member of our team. I fully support the acquisition of the aforementioned software.
 
         { -product-name } seems a reasonable accessibility accommodation which is not cost prohibitive.
-
-        Respectfully,  
-        { $senderName }
-
-letter-member-church-staff =
-    .name = Congregation Member to Church Staff
-    .description = This letter is designed to appeal to pastoral staff members. We recommend your copying applicable church staff as well as your church's head pastor. This will help ensure your request is herd at the next church staff meeting.
-
-    .label-pastorName = Pastor or staff member's name
-
-    .subject-1 = Pastor, can I talk to you about my accessibility need?
-    .subject-2 = An answer to my accessibility prayer! Can you help?
-    .subject-3 = Pastor, I can't read your screen shares. I have an answer...
-    .subject-4 = Praise the Lord! An answer to my accessibility prayer.
-
-    .body =
-        Hello { $pastorName },
-
-        My name is { $senderName }. I am a blind member of your congregation. Thanks so much for moving church services online!
-
-        But, I've had one challenge. As a blind person, I use what is called a screen reader to read my computer screen. The challenge is, my screen reader hasn't been able to read the words to the songs, church announcements, or scriptural reference slides you and other teachers share in Zoom.
-
-        ## As a congregational member, { -product-name } will allow me to:
-
-        - Independently read reference material during the service or study groups in synch with the congregation.
-        - Convert any supplemental content to a number of accessible formats including braille and large print.
-        - Prayerfully consider shared material according to my learning needs.
-        - Feel more included as an equal member of the congregation or study group.
-        - Not be limited to only what I can hear spoken in the service or group.
-
-        ## For you and pastoral staff, { -product-name } will:
-
-        - Only be a simple 5-minute upload.
-        - Remove one more barrier to making content accessible to blind congregational members.
-        - Make the reference material available by pasting one simple link in chat.
-        - Prevent you or staff from having to read supplemental material out loud.
-
-        This is something I've been praying would come available, and now it has.
-
-        You can find more information about { -product-name } at { -product-link }
-
-        After you've had a chance to look at { -product-name }, can we schedule a time to discuss this in more detail?
-
-        I believe { -product-name } is a reasonable accessibility accommodation for a problem with no solution until now.
-
-        God bless,  
-        { $senderName }
-
-letter-member-organization =
-    .name = Member to Organization
-    .description = Many private or public organizations are willing to make their services as accessible as possible for their members. This letter will help them realize there is a simple and affordable solution.
-
-    .label-membershipCoordinatorName = Membership coordinator's name
-    .label-organizationName = Organization name
-
-    .subject-1 = Can you help me as a member with an accessibility issue?
-    .subject-2 = Member accessibility request
-    .subject-3 = Problem with the screen shares in member sessions
-    .subject-4 = Accessibility and screen share... can you help?
-    .subject-5 = Zoom accessibility challenge for members
-
-    .body =
-        Hello { $membershipCoordinatorName },
-
-        My name is { $senderName }, and I'm a member of { $organizationName }. I know accessibility is important to you, which is why I'm writing.
-
-        As a blind member, I use screen reader or magnification software to participate in { $organizationName } activities online, but there is one area with an accessibility issue.
-
-        The content within the presenter's screen share hasn't been accessible to my screen reader or magnifier. But, I found a simple solution! A product which now makes shared slide decks completely accessible to blind participants through WCAG2.1 compliant HTML. Basically, my screen reader will now allow me to read shared content.
-
-        The product is called, { -product-name }.
-
-        ## { -product-name } will allow me to:
-
-        - Access membership content real-time within a shared slide show using my screen reader or screen magnifier.
-        - Convert screen shared materials to a number of accessible formats including braille and large print.
-        - Independently review shared material in synch with fellow members.
-        - Participate equally in real-time with other members.
-        - Review material as needed, not relying solely on what is spoken in the meetings.
-        - Get the most from my membership.
-
-        ## For you, { -product-name } will:
-
-        - Be a simple 5-minute upload.
-        - Make the presentation available to me by simply pasting one link in chat.
-        - Prevent the presenter from repeating material out loud.
-        - Remove one more barrier to making content accessible to members.
-
-        There is more information about { -product-name } at { -product-link }
-
-        I'd be happy to participate in a sample session with you, or have the opportunity to discuss in detail how this will positively impact my membership and others using screen reader or magnification software.
-
-        I think { -product-name } is a simple and reasonable accessibility accommodation.
-
-        Sincerely,  
-        { $senderName }
-
-letter-event-attendee =
-    .name = Event Attendee
-    .description = This letter is for use when you are attending a one-time or infrequent event. Customize the names as needed. If you know someone personally involved in the event, be sure to mention or copy them in the e-mail.
-
-    .label-eventName = Event name
-    .label-eventCoordinatorName = Event coordinator's name
-
-    .subject-1 = Question about accessing event material
-    .subject-2 = Event accessibility request
-    .subject-3 = Accessibility question before { $eventName }
-    .subject-4 = Event participant request for assistance
-    .subject-5 = Easy solution to accessibility accommodation need for { $eventName }
-
-    .body =
-        Hello { $eventCoordinatorName },
-
-        My name is { $senderName }. I'm really excited about attending the upcoming { $eventName }. But, I'm writing with an accessibility concern.
-
-        As a blind individual, I use screen reading or magnification software on my computer. Until now, content displayed through Zoom's screen shares has been inaccessible to screen readers and magnifying software.
-
-        There's now an extremely affordable and simple product organizations can use to make shared slide decks completely accessible with WCAG2.1 compliant HTML. Basically, my screen reader will be able to let me read shared slide content.
-
-        The product is called, { -product-name }.
-
-        ## { -product-name } will allow me to:
-
-        - Access event content real-time within a shared slide show using my screen reader or screen magnification.
-        - Convert supplemental event materials to a number of accessible formats including braille and large print.
-        - Independently review shared material in synch with others.
-        - Participate fully in real-time during the live event.
-        - Review material as needed, not relying solely on what is spoken in the sessions.
-
-        ## For you, { -product-name } will:
-
-        - Be a simple 5-minute upload.
-        - Make the presentation available to me by pasting one link in chat.
-        - Prevent the presenter from repeating material out loud.
-        - Let you be less conscious about accessibility concerns.
-
-        There is more information about { -product-name } at { -product-link }
-
-        Would you review the information about { -product-name } before the event? I'd be happy to make time in my schedule to discuss this in more detail, and the positive effect it will have for me during the event.
-
-        I think you'll agree, { -product-name } is a pretty reasonable accessibility accommodation. Plus, it is not cost prohibitive.
 
         Respectfully,  
         { $senderName }
@@ -598,26 +226,33 @@ try-another-letter = Not what you were looking for? Try another letter.
 copied = Copied to clipboard
 
 intro =
-    # Scribe for Meetings Self-Advocacy Kit
+    # Remote Incident Manager Self-Advocacy Kit
 
-    Scribe for Meetings is the first service to allow online webinar and meeting presenters to share accessible slide content with print disabled participants.
+    Remote Incident Manager is the first remote access platform to feature an all-inclusive design that allows all support technicians, visually impaired or otherwise, to be on a level playing field. It further offers a significantly smoother experience for end users receiving support.
 
-    If you want more information, [click here for our Scribe for Meetings page.](https://pneumasolutions.com/products/scribe-for-meetings/)
+    If you want more information, [click here for our Remote Incident Manager page.](https://pneumasolutions.com/products/rim/)
 
     ## Sometimes, self-advocacy is the answer.
 
     When it comes to accessibility, those who are in need of it for themselves, or on behalf of another, aren't strangers to jumping in with self-advocacy to achieve it.
 
-    We understand, and we're here to help. Especially when it comes to accessible screen shares on Zoom.
+    We understand, and we're here to help. Especially when it comes to accessible remote support.
 
-    ## How are we helping you advocate for Scribe for Meetings?
+    ## How are we helping you advocate for Remote Incident Manager?
 
     We've assembled a Self-Advocacy Kit (SAK). A packet of e-mail formatted letters you can send to appropriate individuals on behalf of yourself, a child, or an employee.
 
     ## Accessibility isn't a favor, it's a right to inclusivity.
 
-    There are obviously many different situations where you may need a presenter to provide Scribe for Meetings, but we've given you a broad range of letters to choose from.
+    There are obviously many different situations where you may need Remote Incident Manager, so we've given you a broad range of letters to choose from.
 
-    The below Scribe for Meetings SAK letters are ready to customize and send. Just pick the letter that fits your situation, fill in a few simple fields, copy and paste into your email app, and edit the letter as you see fit. Then send it to the desired individual in charge of hosting the meeting or webinar.
+    The below Remote Incident Manager SAK letters are ready to customize and send. Just pick the letter that fits your situation, fill in a few simple fields, copy and paste into your email app, and edit the letter as you see fit. Then send it to the desired individual in charge of your organization.
 
     We've also optimized a range of subject lines for each letter. This will help get your e-mail opened. Of course, you're also free to ignore our suggested subject lines and write your own.
+
+    ## Letters for Specific Companies
+
+    Those of you who have used our other self advocacy kits may notice some letters unique to RIM. We include these for a few reasons.
+
+    - Many mainstream companies provide premium support to their customers via programs such as TeamViewer or a Zoom remote control session. We have included email that may be sent directly to any companies that we're aware of who regularly use these programs. Let them know that RIM exists, offers the same capabilities as their previous solution, and is completely accessible.
+    - Due to the nature of the RIM software and remote access software in general, getting it to work effectively on platforms other than Windows may require platform vendors to work with us and accommodate the program's various functions. We have pre-written emails for you to send to these platform vendors explaining why it is important for you to have RIM on you or your company's platform of choice. The more users they hear from, the more likely they are to recognize the importance of this solution.

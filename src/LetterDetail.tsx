@@ -160,12 +160,12 @@ export function LetterDetail({ letterId }: LetterDetailProps) {
                 {label}
               </label>
               <div className="col-sm-10">
-                {(name === "gender") ? (
+                {(name === "solution") ? (
                   <select id={name} name={name} value={value} onChange={evt => setValue(evt.target.value)}>
                     <option value="">{l10n.getString("select-unset-option", null, "Please choose")}</option>
-                    <option value="male">{l10n.getString("gender-option-male", null, "male")}</option>
-                    <option value="female">{l10n.getString("gender-option-female", null, "female")}</option>
-                    <option value="other">{l10n.getString("gender-option-other", null, "other")}</option>
+                    <option value="teamviewer">{l10n.getString("solution-option-teamviewer", null, "teamviewer")}</option>
+                    <option value="quickassist">{l10n.getString("solution-option-quickassist", null, "quickassist")}</option>
+                    <option value="other">{l10n.getString("solution-option-other", null, "other")}</option>
                   </select>
                 ) : (
                   <input id={name} name={name} value={value} onChange={evt => setValue(evt.target.value)} />
