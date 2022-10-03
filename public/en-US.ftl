@@ -18,8 +18,7 @@ letter-student-disability-office =
     .description = When you need help getting { -product-name } in your university, the disability office is the place to start. If you are facing accessibility issues with the current remote support solution that your university's IT department utilizes, be sure to give the disability office as much information about these accessibility issues as you can gather.
 
     .label-disabilityCoordinatorName = Disability office coordinator's name
-    .label-solution = Existing software used
-
+    
     .subject-1 = New accessibility accommodation request: accessible remote desktop support
     .subject-2 = Can I get this accessibility accommodation?
     .subject-3 = Can you help me with this accessibility accommodation?
@@ -63,6 +62,7 @@ letter-employee-supervisor =
     .description = This letter is useful when you want to approach your supervisor concerning the need for improved remote access. Be sure to customize the intro according to the level of relationship you have with your boss or supervisor.
 
     .label-supervisorName = Supervisor's name
+    .label-solution = Existing software used
 
     .subject-1 = Accessibility solution. Can we discuss?
     .subject-2 = Really productive accessibility solution here
@@ -75,7 +75,11 @@ letter-employee-supervisor =
 
         I would like to clear up some concerns regarding my upcoming use of remote support solutions.
 
-        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of $current-remote-access-software.
+        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of { $solution [>
+            [teamviewer] TeamViewer
+            [quickassist] QuickAssist
+            *[other] the current software
+        }.
 
         Providing remote support to our employees with $current-remote-access-software introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
 
