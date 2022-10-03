@@ -75,7 +75,7 @@ letter-employee-supervisor =
 
         I would like to clear up some concerns regarding my upcoming use of remote support solutions.
 
-        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of { $solution [>
+        To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of { $solution ->
             [teamviewer] TeamViewer
             [quickassist] QuickAssist
             *[other] the current software
