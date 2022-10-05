@@ -43,6 +43,7 @@ letter-student-disability-office =
 
         - Connect to a support representative easily and efficiently through use of a simple keyword
         - Talk to the person on the other end of the connection without having to use another VOIP system
+        - Utilize a remote session to receive assistance with any inaccessible course websites I encounter
 
         ## For the team leader and the rest of the team, Remote incident Manager will:
 
@@ -263,5 +264,5 @@ intro =
 
     Those of you who have used our other self advocacy kits may notice some letters unique to RIM. We include these for a few reasons.
 
-    - Many mainstream companies provide premium support to their customers via programs such as TeamViewer or a Zoom remote control session. We have included email that may be sent directly to any companies that we're aware of who regularly use these programs. Let them know that RIM exists, offers the same capabilities as their previous solution, and is completely accessible.
+    - Many mainstream companies provide premium support to their customers via programs such as TeamViewer or a Zoom remote control session. We have included emails that may be sent directly to any companies that we're aware of who regularly use these programs. Let them know that RIM exists, offers the same capabilities as their previous solution, and is completely accessible.
     - Due to the nature of the RIM software and remote access software in general, getting it to work effectively on platforms other than Windows may require platform vendors to work with us and accommodate the program's various functions. We have pre-written emails for you to send to these platform vendors explaining why it is important for you to have RIM on you or your company's platform of choice. The more users they hear from, the more likely they are to recognize the importance of this solution.
