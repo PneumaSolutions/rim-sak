@@ -30,7 +30,7 @@ letter-student-disability-office =
         My name is { $senderName }. I am a blind student enrolled on campus.
 
         I recently received assistance with a computer problem. While the IT department was very helpful when it came to resolving my incident, I encountered some issues with the remote support program being utilized. The support was conducted over { $solution ->
-            [teamviewer] TeamViewer, and this caused some issues for me. I use a screen reader to navigate the computer, and due to TeamViewer's inaccessibility, it was unable to read the ID and password that the support representative was asking for. I had to use a Zoom screen-share just to get the ID and password.
+            [teamviewer] TeamViewer, and this caused some issues for me. I use a screen reader to navigate the computer, and due to TeamViewer's inaccessibility, it was unable to read the ID and password that the support representative was asking for. We had to resort to a Zoom screen-share just to get the ID and password.
             [quickassist] QuickAssist. The support representative responding to my helpdesk ticket was visually impaired, thus they rely on the audio of my screen reader to use my computer. For some reason, they were unable to hear the audio from my side of the connection. Since they had to attempt to hear my screen reader speech through the phone, it was a bit difficult for them to troubleshoot my computer.
             *[other] the current software.
         }
