@@ -262,7 +262,7 @@ intro =
 
     ## Letters for Specific Companies
 
-    Those of you who have used our other self advocacy kits may notice some letters unique to RIM. We include these for a few reasons.
+    Those of you who have used our other self advocacy kits may notice some letters unique to Remote Incident Manager. We include these for a few reasons.
 
-    - Many mainstream companies provide premium support to their customers via programs such as TeamViewer or a Zoom remote control session. We have included emails that may be sent directly to any companies that we're aware of who regularly use these programs. Let them know that RIM exists, offers the same capabilities as their previous solution, and is completely accessible.
-    - Due to the nature of the RIM software and remote access software in general, getting it to work effectively on platforms other than Windows may require platform vendors to work with us and accommodate the program's various functions. We have pre-written emails for you to send to these platform vendors explaining why it is important for you to have RIM on you or your company's platform of choice. The more users they hear from, the more likely they are to recognize the importance of this solution.
+    - Many mainstream companies provide premium support to their customers via programs such as TeamViewer or a Zoom remote control session. We have included emails that may be sent directly to any companies that we're aware of who regularly use these programs. Let them know that Remote Incident Manager exists, offers the same capabilities as their previous solution, and is completely accessible.
+    - Due to the nature of the Remote Incident Manager software and remote access software in general, getting it to work effectively on platforms other than Windows may require platform vendors to work with us and accommodate the program's various functions. We have pre-written emails for you to send to these platform vendors explaining why it is important for you to have RIM on you or your company's platform of choice. The more users they hear from, the more likely they are to recognize the importance of this solution.
