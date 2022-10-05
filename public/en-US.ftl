@@ -81,12 +81,12 @@ letter-employee-supervisor =
         I would like to clear up some concerns regarding my upcoming use of remote support solutions.
 
         To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of { $solution ->
-            [teamviewer] TeamViewer
-            [quickassist] QuickAssist
-            *[other] the current software
+            [teamviewer] TeamViewer. I have encountered a number of accessibility pitfalls while providing support to our employees via TeamViewer. A recent update to the user interface has made the meeting ID and password impossible to read with my screen reader. What's more I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            [quickassist] QuickAssist. Providing remote support to our employees with QuickAssist introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            *[other] the current software. Providing remote support to our employees with our current platform introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
         }.
 
-        Providing remote support to our employees with $current-remote-access-software introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
+        The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
 
         The product is called, { -product-name }.
 
