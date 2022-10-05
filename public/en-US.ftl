@@ -18,7 +18,8 @@ letter-student-disability-office =
     .description = When you need help getting { -product-name } in your university, the disability office is the place to start. If you are facing accessibility issues with the current remote support solution that your university's IT department utilizes, be sure to give the disability office as much information about these accessibility issues as you can gather.
 
     .label-disabilityCoordinatorName = Disability office coordinator's name
-    
+    .label-solution = Existing software used
+
     .subject-1 = New accessibility accommodation request: accessible remote desktop support
     .subject-2 = Can I get this accessibility accommodation?
     .subject-3 = Can you help me with this accessibility accommodation?
