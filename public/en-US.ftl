@@ -28,13 +28,17 @@ letter-student-disability-office =
 
         My name is { $senderName }. I am a blind student enrolled on campus.
 
-        I recently received assistance with a computer problem. While the IT department was very helpful when it came to resolving my incident, I encountered some issues with the remote support program being utilized. I use a screen reader to navigate the computer, and the current program is completely unusable with a screen reader. The screen reader was unable to read the ID and password needed by the IT support representative to connect to my computer.
+        I recently received assistance with a computer problem. While the IT department was very helpful when it came to resolving my incident, I encountered some issues with the remote support program being utilized. The support was conducted over { $solution ->
+            [teamviewer] TeamViewer, and this caused some issues for me. I use a screen reader to navigate the computer, and due to TeamViewer's inaccessibility, it was unable to read the ID and password that the support representative was asking for. I had to use a Zoom screen-share just to get the ID and password.
+            [quickassist]QuickAssist. The support representative responding to my helpdesk ticket was visually impaired, thus they rely on the audio of my screen reader to use my computer. For some reason, they were unable to hear the audio from my side of the connection. Since they had to attempt to hear my screen reader speech through the phone, it was a bit difficult for them to troubleshoot my computer.
+            *[other]other software.
+        }
 
-        The good news is that I have found a program that will fully resolve that issue. The product is called, { -product-name }.
+        The good news is that I have found a program that will fully resolve that issue. The program is called, { -product-name }.
 
         { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications.
 
-        ## { -product-name } will allow me to:
+        ## { -product-name } will allow me to:  
 
         - Connect to a support representative easily and efficiently through use of a simple keyword
         - Talk to the person on the other end of the connection without having to use another VOIP system
