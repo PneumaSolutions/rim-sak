@@ -84,7 +84,7 @@ letter-employee-supervisor =
             [teamviewer] TeamViewer. I have encountered a number of accessibility pitfalls while providing support to our employees via TeamViewer. A recent update to the user interface has made the meeting ID and password impossible to read with my screen reader. What's more I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
             [quickassist] QuickAssist. Providing remote support to our employees with QuickAssist introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
             *[other] the current software. Providing remote support to our employees with our current platform introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
-        }.
+        }
 
         The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
 
