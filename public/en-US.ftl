@@ -74,7 +74,7 @@ letter-employee-supervisor =
     .subject-2 = Really productive accessibility solution here
     .subject-3 = Important: Can we discuss this in our next meeting?
     .subject-4 = Can you back me on this accessibility request?
-    .subject-5 = This accessibility tool for remote support is awesome, can we consider it?
+    .subject-5 = This accessible remote support tool is awesome, can we consider it?
 
     .body =
         Hello { $supervisorName },
