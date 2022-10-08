@@ -221,7 +221,7 @@ letter-aira =
     .name = Letter to Aira
     .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
 
-    .subject-1 = Enhance your accessibility with RIM
+    .subject-1 = Enhance your accessibility with Remote Incident Manager
     .subject-2 = Please consider this solution to the TeamViewer problem
     .subject-3 = New awesome remote support tool
 
@@ -232,9 +232,7 @@ letter-aira =
 
         The good news is that there is a solution to this problem. The solution is the all new { -product-name }.
 
-        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to applications such as TeamViewer.
-
-        { -product-name } does away with an ID/password system, putting a simple keyword-based session initiation process in its place. All an agent has to do is issue the user a keyword that they can then use to easily initiate the support session. Upon establishing the connection, the agent will be able to control the computer exactly how they would with TeamViewer.
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to applications such as TeamViewer. { -product-name } does away with an ID/password system, putting a simple keyword-based session initiation process in its place. All an agent has to do is issue the user a keyword that they can then use to easily initiate the support session. Upon establishing the connection, the agent will be able to control the computer exactly how they would with TeamViewer.
 
         There is more information about { -product-name } at { -product-link }
 
