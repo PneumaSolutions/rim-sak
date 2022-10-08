@@ -51,8 +51,8 @@ letter-student-disability-office =
         - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
         - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
         - Provide an extremely simple interface to streamline the onboarding process
-        - Allow a smoother accessible flow of support sessions.
-        - Remove one more barrier to making the university accessible.
+        - Allow a smoother accessible flow of support sessions
+        - Remove one more barrier to making the university accessible
         - Allow visually impaired aspiring technicians to work as IT help desk staff in order to gain valuable experience
 
         You can find more information about { -product-name } at { -product-link }
@@ -106,8 +106,8 @@ letter-employee-supervisor =
         - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
         - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
         - Provide an extremely simple interface to streamline the onboarding process
-        - Allow a smoother accessible flow of support sessions.
-        - Remove one more barrier to making the workplace accessible.
+        - Allow a smoother accessible flow of support sessions
+        - Remove one more barrier to making the workplace accessible
 
         There is more information about { -product-name } at { -product-link }
 
@@ -127,8 +127,8 @@ letter-employee-hr =
     .subject-1 = Accessibility at work request
     .subject-2 = Reasonable accommodation for accessibility enclosed
     .subject-3 = Attn. HR Compliance: Employee accessibility need inside
-    .subject-4 = WCAG2.1 compliant HTML Accessibility request for employee
-    .subject-5 = Request for accessibility at work: Screen share content
+    .subject-4 = Remote desktop accessibility request for employee
+    .subject-5 = Request for accessibility at work: Remote desktop access
 
     .body =
         Hello { $hrCompliancePersonName },
@@ -156,8 +156,8 @@ letter-employee-hr =
         - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
         - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
         - Provide an extremely simple interface to streamline the onboarding process
-        - Allow a smoother accessible flow of support sessions.
-        - Remove one more barrier to making the workplace accessible.
+        - Allow a smoother accessible flow of support sessions
+        - Remove one more barrier to making the workplace accessible
 
         There is more information about { -product-name } at { -product-link }
 
@@ -177,7 +177,7 @@ letter-supervisor-hr =
     .subject-2 = Reasonable accessibility accommodation for employee enclosed
     .subject-3 = Attn. HR Compliance: Employee accessibility need inside
     .subject-4 = Remote support Accessibility request for employee
-    .subject-5 = Request for accessibility at work: remote technical support
+    .subject-5 = Request for accessibility at work: remote desktop access
 
     .body =
         Hello { $hrCompliancePersonName },
@@ -205,8 +205,8 @@ letter-supervisor-hr =
         - Utilize peer to peer connections for the best possible responsiveness throughout support sessions
         - Greatly simplify session initiation through use of user-definable keywords as opposed to user ID's and passwords
         - Provide an extremely simple interface to streamline the onboarding process
-        - Allow a smoother accessible flow of support sessions.
-        - Remove one more barrier to making the workplace accessible.
+        - Allow a smoother accessible flow of support sessions
+        - Remove one more barrier to making the workplace accessible
 
         There is more information about { -product-name } at { -product-link }
 
