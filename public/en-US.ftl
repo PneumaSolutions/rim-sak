@@ -79,7 +79,7 @@ letter-employee-supervisor =
     .body =
         Hello { $supervisorName },
 
-        I would like to clear up some concerns regarding my upcoming use of remote support solutions.
+        I would like to address a few things regarding my upcoming use of remote support solutions.
 
         To refresh your memory, as a blind team member, I use a screen reader to complete my workload. Just recently, I've found a solution to an accessibility challenge I've had throughout my use of { $solution ->
             [teamviewer] TeamViewer. I have encountered a number of accessibility pitfalls while providing support to our employees via TeamViewer. A recent update to the user interface has made the meeting ID and password impossible to read with my screen reader. What's more I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
@@ -87,7 +87,7 @@ letter-employee-supervisor =
             *[other] the current software. Providing remote support to our employees with our current platform introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
         }
 
-        The great news is I've found a product which now makes providing remote support completely accessible with screen readers. Basically, this program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
+        The great news is I've found a product which now makes providing remote support completely accessible with screen readers. This program will allow me to provide remote support to any and all machines, whether they have a screen reader installed or not.
 
         The product is called, { -product-name }.
 
@@ -123,6 +123,7 @@ letter-employee-hr =
     .label-hrCompliancePersonName = HR compliance person's name
     .label-companyName = Company name
     .label-departmentName = Department name
+    .label-solution = Existing software used
 
     .subject-1 = Accessibility at work request
     .subject-2 = Reasonable accommodation for accessibility enclosed
@@ -137,7 +138,11 @@ letter-employee-hr =
 
         I'm writing concerning an accessibility at work request. There have been many reasonable accommodations made for various disabilities in the workplace.
 
-        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
+        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers. Thus, I have had to work through various accessibility deficiencies found within { $solution ->
+            [teamviewer] TeamViewer. I have encountered a number of accessibility pitfalls while providing support to our employees via TeamViewer. A recent update to the user interface has made the meeting ID and password impossible to read with my screen reader. What's more I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            [quickassist] QuickAssist. Providing remote support to our employees with QuickAssist introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            *[other] the current software. Providing remote support to our employees with our current platform introduces a number of accessibility pitfalls with my screen reader. I haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+        }
 
         The product I'm requesting, which solves this problem, is called { -product-name }.
 
@@ -161,7 +166,7 @@ letter-employee-hr =
 
         There is more information about { -product-name } at { -product-link }
 
-        I'd like to schedule a time with you to discuss this in more detail. { -product-name } is a reasonable accessibility accommodation which is not cost prohibitive.
+        I'd like to schedule a time with you to discuss this in more detail. { -product-name } is a reasonable accessibility accommodation which is not cost prohibitive. Moreover, it is a solution that works as well as any other for all employees.
 
         Respectfully,  
         { $senderName }
@@ -172,6 +177,7 @@ letter-supervisor-hr =
 
     .label-hrCompliancePersonName = HR compliance person's name
     .label-departmentName = Department name
+    .label-solution = Existing software used
 
     .subject-1 = Employee accessibility at work request
     .subject-2 = Reasonable accessibility accommodation for employee enclosed
@@ -186,7 +192,11 @@ letter-supervisor-hr =
 
         I'm writing concerning an accessibility at work request on behalf of a visually impaired team member.
 
-        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
+        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers. My team member has faced various issues throughout their use of { $solution ->
+            [teamviewer] TeamViewer. My team member has encountered a number of accessibility pitfalls while providing support to our employees via TeamViewer. A recent update to the user interface has made the meeting ID and password impossible to read with the screen reader issued to them. What's more they haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            [quickassist] QuickAssist. Providing remote support to our employees with QuickAssist introduces a number of accessibility pitfalls with the screen reader issued to my team member. They haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+            *[other] the current software. Providing remote support to our employees with our current platform introduces a number of accessibility pitfalls for my team member. They haven't been able to hear the remote machine's audio reliably, and certain keyboard commands won't function properly. The difficulty becomes greater when providing support for a computer without a screen reader installed. 
+        }
 
         The product I'm requesting, which solves this problem, is called { -product-name }.
 
@@ -212,12 +222,76 @@ letter-supervisor-hr =
 
         The employee who requested the accommodation is a valued member of our team. I fully support the acquisition of the aforementioned software.
 
-        { -product-name } seems a reasonable accessibility accommodation which is not cost prohibitive.
+        { -product-name } seems a reasonable accessibility accommodation which is not cost prohibitive. Moreover, it is a solution that works as well as any other for all of our employees.
 
         Respectfully,  
         { $senderName }
 
-letter-aira =
+letter-Apple =
+    .name = Request to Apple
+    .description = One of the major obstacles standing in the way of a potential Mac release of { -product-name } lies within Apple's accessibility framework. Mac OS does not allow us to discretely enable an accessibility module to allow a visually impaired IT professional to use VoiceOver without having to disclose this to the end user. This letter should be sent to Apple's accessibility team. The more { -product-name } users they hear from, the more likely they are to work with us on a solution to this problem.
+
+    .label-companyName = Place of Work
+
+    .subject-1 = Important feature request: discrete VoiceOver use over a remote connection
+    .subject-2 = Attn. Appl Accessibility - feature request
+
+    .body =
+        Greetings,
+
+        My name is { $senderName }. I'm a visually impaired support technician working at { $companyName }.
+
+        I'm writing concerning an accessibility concern which you can address.
+
+        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
+
+        I was recently made aware of a software product for Windows called { -product-name }, which solves all the accessibility issues I have faced with all other remote support applications.
+
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications. Pneuma Solutions, the company that develops { -product-name }, has shown interest in porting this software to Mac OS. There is, however, one problem area that will require intervention on your part in order to address.
+
+        ## The Problem
+
+        One of { -product-name }'s biggest selling points is the remote accessibility module. This allows me, as a visually impaired support technician, to provide support to a computer that lacks a screen reader all without revealing to the user that I need to run a screen reader to use the computer. This is accomplished by running a self-contained module that pipes speech commands across the remote conection. IN other words, I am given all the benefits of a screen reader when controlling the remote computer without the end user having to hear my speech, or even worry about the presence of a screen reader in the first place.
+
+        You are probably wondering why it is imperative that a Mac version of { -product-name } be allowed the same capability. After all, all Mac systems contain VoiceOver, so why not just use that? Herein lies the problem: lack of a choice as to whether or not to disclose one's visual impairment. One of { -product-name }'s core tenets is putting visually impaired people on a level playing field with their sighted peers. One of the implications of that is preserving the dignity of the visually impaired individual by leaving it up to them whether or not to disclose. If VoiceOver comes up talking on the end user's machine, that might raise a lot of questions or concerns especially if they have never heard of a screen reader. The last thing the technician needs is the sudden possible doubt or second thoughts from a user or employee upon finding out that the person providing assistance to their computer is visually impaired. On the other hand, if a method for a visually impaired technician to use VoiceOver discretely were implemented, the technician's visual impairment would not be automatically disclosed, leaving the decision entirely up to the individual.
+
+        ## In Summary
+
+        As a visually impaired technician, I am asking you, Apple, to implement a solution to allow Pneuma Solutions to leverage VoiceOver discretely within { -product-name}. This will be instrumental in leveling the playin field for us regardless of which computer platform we are using.
+
+        There is more information about { -product-name } at { -product-link }
+
+        Thank you for your consideration in advance.
+        Respectfully,  
+        { $senderName }
+
+letter-aira =letter-aira =
+    .name = Letter to Aira
+    .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
+
+    .subject-1 = Enhance your accessibility with Remote Incident Manager
+    .subject-2 = Please consider this solution to the TeamViewer problem
+    .subject-3 = New awesome remote support tool
+
+    .body =
+        Greetings,
+
+        My name is { $senderName }, and I would like to request an improvement be made to the Aira service. While my experience with Aira has been very positive, there is one area in which I have faced some difficulty. As is well known by now, a recent update to TeamViewer broke accessibility with screen readers. This makes it impossible to read the ID and password independently in order to help the agent connect to my computer.
+
+        The good news is that there is a solution to this problem. The solution is the all new { -product-name }.
+
+        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to applications such as TeamViewer. { -product-name } does away with an ID/password system, putting a simple keyword-based session initiation process in its place. All an agent has to do is issue the user a keyword that they can then use to easily initiate the support session. Upon establishing the connection, the agent will be able to control the computer exactly how they would with TeamViewer.
+
+        There is more information about { -product-name } at { -product-link }
+
+        Given TeamViewer's less than satisfactory accessibility, adopting { -product-name } would make for a much more streamlined experience for explorers.
+
+        Thank you for your consideration in advance.
+
+        Respectfully,  
+        { $senderName }
+
+
     .name = Letter to Aira
     .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
 
