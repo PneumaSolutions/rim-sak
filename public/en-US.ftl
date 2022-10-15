@@ -234,7 +234,7 @@ letter-Apple =
     .label-companyName = Place of Work
 
     .subject-1 = Important feature request: discrete VoiceOver use over a remote connection
-    .subject-2 = Attn. Appl Accessibility - feature request
+    .subject-2 = Attn. Apple Accessibility - feature request
 
     .body =
         Greetings,
@@ -351,7 +351,7 @@ intro =
 
     ## How are we helping you advocate for Remote Incident Manager?
 
-    We've assembled a Self-Advocacy Kit (SAK). A packet of e-mail formatted letters you can send to appropriate individuals on behalf of yourself, a child, or an employee.
+    We've assembled a Self-Advocacy Kit (SAK). A packet of e-mail formatted letters you can send to appropriate individuals on behalf of yourself or an employee.
 
     ## Accessibility isn't a favor, it's a right to inclusivity.
 
