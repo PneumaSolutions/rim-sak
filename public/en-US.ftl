@@ -227,45 +227,6 @@ letter-supervisor-hr =
         Respectfully,  
         { $senderName }
 
-letter-Apple =
-    .name = Request to Apple
-    .description = One of the major obstacles standing in the way of a potential Mac release of { -product-name } lies within Apple's accessibility framework. Mac OS does not allow us to discretely enable an accessibility module to allow a visually impaired IT professional to use VoiceOver without having to disclose this to the end user. This letter should be sent to Apple's accessibility team. The more { -product-name } users they hear from, the more likely they are to work with us on a solution to this problem.
-
-    .label-companyName = Place of Work
-
-    .subject-1 = Important feature request: discrete VoiceOver use over a remote connection
-    .subject-2 = Attn. Apple Accessibility - feature request
-
-    .body =
-        Greetings,
-
-        My name is { $senderName }. I'm a visually impaired support technician working at { $companyName }.
-
-        I wish to request a feature implementation to improve accessibility in the workplace.
-
-        Until now, there's not been an accessibility answer to make remote technical support accessible to screen readers and magnifiers.
-
-        I was recently made aware of a software product for Windows called { -product-name }, which solves all the accessibility issues I have faced with all other remote support applications.
-
-        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to conventional applications. Pneuma Solutions, the company that develops { -product-name }, has shown interest in porting this software to Mac OS. There is, however, one important part of the equation that will require intervention on your part in order to address.
-
-        ## The Problem
-
-        One of { -product-name }'s biggest selling points is the remote accessibility module. This allows me, as a visually impaired support technician, to provide support to a computer that lacks a screen reader all without revealing to the user that I need to run a screen reader to use the computer. This is accomplished by running a self-contained module that pipes speech commands across the remote conection. IN other words, I am given all the benefits of a screen reader when controlling the remote computer without the end user having to hear screen reader speech, or even worry about the presence of a screen reader in the first place.
-
-        You may be wondering why it is imperative that a Mac version of { -product-name } be allowed the same capability. After all, all Mac systems contain VoiceOver, so why not just use that? Herein lies the problem: lack of a choice as to whether or not to disclose one's visual impairment. One of { -product-name }'s core tenets is putting visually impaired people on a level playing field with their sighted peers. One of the implications of that is preserving the dignity of the visually impaired individual by leaving it up to them whether or not to disclose. If VoiceOver comes up talking on the end user's machine, that might raise a lot of questions or concerns especially if they have never heard of a screen reader. The last thing the technician needs is the sudden possible doubt or second thoughts from a user or employee upon finding out that the person providing assistance to their computer is visually impaired. On the other hand, if a method for a visually impaired technician to use VoiceOver discretely were implemented, the technician's visual impairment would not be automatically disclosed, leaving the decision entirely up to the individual.
-
-        ## In Summary
-
-        As a visually impaired technician, I am asking you, Apple, to implement a solution to allow Pneuma Solutions to leverage VoiceOver discretely within { -product-name}. This will be instrumental in leveling the playin field for us regardless of which computer platform we are using.
-
-        There is more information about { -product-name } at { -product-link }
-
-        Thank you for your consideration in advance.
-
-        Respectfully,  
-        { $senderName }
-
 letter-aira =letter-aira =
     .name = Letter to Aira
     .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
