@@ -254,31 +254,6 @@ letter-aira =letter-aira =
         { $senderName }
 
 
-    .name = Letter to Aira
-    .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
-
-    .subject-1 = Enhance your accessibility with Remote Incident Manager
-    .subject-2 = Please consider this solution to the TeamViewer problem
-    .subject-3 = New awesome remote support tool
-
-    .body =
-        Greetings,
-
-        My name is { $senderName }, and I would like to request an improvement be made to the Aira service. While my experience with Aira has been very positive, there is one area in which I have faced some difficulty. As is well known by now, a recent update to TeamViewer broke accessibility with screen readers. This makes it impossible to read the ID and password independently in order to help the agent connect to my computer.
-
-        The good news is that there is a solution to this problem. The solution is the all new { -product-name }.
-
-        { -product-name } is a fully accessible remote desktop solution that makes every aspect of the remote support process accessible, while offering an identical feature set to applications such as TeamViewer. { -product-name } does away with an ID/password system, putting a simple keyword-based session initiation process in its place. All an agent has to do is issue the user a keyword that they can then use to easily initiate the support session. Upon establishing the connection, the agent will be able to control the computer exactly how they would with TeamViewer.
-
-        There is more information about { -product-name } at { -product-link }
-
-        Given TeamViewer's less than satisfactory accessibility, adopting { -product-name } would make for a much more streamlined experience for explorers.
-
-        Thank you for your consideration in advance.
-
-        Respectfully,  
-        { $senderName }
-
 ## User interface
 
 customize-letter-heading = Customize your letter
