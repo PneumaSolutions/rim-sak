@@ -267,6 +267,7 @@ letter-VR-Justification =
 
         Respectfully,  
         { $senderName }
+        
         { $companyName }
         
 letter-aira =
