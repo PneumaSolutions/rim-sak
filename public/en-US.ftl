@@ -227,7 +227,49 @@ letter-supervisor-hr =
         Respectfully,  
         { $senderName }
 
-letter-aira =letter-aira =
+letter-VR-Justification =
+    .name = Agency Justification
+    .description = This letter is useful in situations where a formal, agency-friendly justification is needed.
+
+    .label-companyName = Company name
+
+    .subject-1 = Reasonable accommodation for accessibility enclosed
+    .subject-2 = Employee accessibility need inside
+    .subject-3 = Request for accessibility at work: Remote desktop access
+
+    .body =
+        To Whom It May Concern:
+
+        I am requesting approval for a single source purchase of Remote Incident Manager (RIM) remote access software from Pneuma Solutions. 
+        RIM is the only product of its kind that provides fully accessible remote support capabilities for blind and visually impaired technicians.
+
+        RIM allows our blind staff members to remotely access client machines using their preferred screen reader, overcoming the accessibility barriers with mainstream options like TeamViewer, Zoom, and Microsoft Remote Desktop.
+
+        As the sole developer of specialized cloud based assistive technologies for the blind community, Pneuma Solutions offers RIM, with these unique advantages:
+
+        - Fully accessible interface optimized for screen reader users
+        - Reliable low-latency audio critical for remote audio, video, and machine control
+        - Peer-to-peer connectivity for fast performance during remote sessions
+        - Simplified session initiation with custom keywords vs complex IDs/passwords
+        - Offers a remote accessibility module, allowing blind Trainers and technicians to easily  connect to machines that don’t have screen readers installed
+        - Identical features as conventional apps but with full accessibility
+        - Available on Windows and Mac operating systems
+        - Available in multiple languages: English, Spanish, French, and more
+
+        RIM also benefits our sighted technicians through its intuitive interface and ease of deployment. Technicians can be quickly onboarded without extensive training. Support sessions initiate in seconds.
+
+        With over 15 years of experience developing solutions specifically for the blind community, Pneuma offers an extremely cost-effective option. 
+        RIM pricing starts at just $999/year for unlimited remote sessions.
+
+        In summary, RIM allows our blind staff to provide robust technical support comparable to sighted colleagues. It also improves remote support workflows. I am confident RIM will exceed expectations while providing an essential accommodation.
+
+        Please let me know if you need any additional details about RIM's capabilities and value. Pneuma Solutions offers full product demos, free trials, and budgetary guidance. I appreciate your consideration of this request to purchase RIM as a specialized single source solution to meet our organization's needs.
+
+        Respectfully,  
+        { $senderName }
+        { $companyName }
+        
+letter-aira =
     .name = Letter to Aira
     .description = This letter can be sent to Aira in order to request that they adopt { -product-name } in order to provide a more seamless remote support experience to explorers.
 
